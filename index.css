@@ -1,0 +1,65 @@
+.container1 {
+    background-color: rgb(155, 155, 255);
+    display: flex;
+    justify-content: flex-end;
+}
+.container1 div{
+   padding: 10px;
+   color: white;
+}
+.container1  div:hover {
+    cursor: pointer;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    border-bottom: lightgray 2px solid;
+    list-style: none;
+}
+.container2 div {
+    padding: 20px 30px;
+    cursor: pointer
+}
+.container2 div:hover{
+    border-bottom: 3px darkgreen solid;
+    background-color: darkseagreen;
+   
+}
+.Nepal1 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: left
+}
+.Nepal1 div {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:azure;
+padding: 15px;
+}
+.Nepal1 div:hover {
+    cursor: pointer;
+}
+.nepalsearch {
+    background-color: rgb(41, 40, 40);
+    border: 1px solid grey;
+    color: aliceblue;
+}
+.CodingNepal {
+    font-size: large;
+}
+
+.oransj {
+    
+    display: flex;
+    justify-content: center
+}
+.oransj div {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: red;
+}
+.oransj div:hover {
+    cursor: pointer;
+}
